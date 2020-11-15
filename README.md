@@ -18,7 +18,7 @@
 * [API DOC: ActiveRecord::Scoping::Named::ClassMethods](https://api.rubyonrails.org/classes/ActiveRecord/Scoping/Named/ClassMethods.html)
 * **Question: Difference between scope method and class method**
 * [(Medium) How is a scope different from a class method?](https://medium.com/le-wagon/what-are-named-scopes-and-how-to-use-them-rails-5-5a0444d8b759)
-	*  **Chaining** - it will not return nil but rather an empty array
+	*  **Chaining** - it will not return `nil` but rather an empty array
 	* **Readability** - Scopes can be written in just one line, great way to keep your model dry
 ## 4. Separations of concerns 
 * Don't call database from View
