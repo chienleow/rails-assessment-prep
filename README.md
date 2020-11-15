@@ -20,5 +20,6 @@
 * (Medium) How is a scope different from a class method?
 	*  Chaining - it will not return nil but rather an empty array
 	* Readability - Scopes can be written in just one line, great way to keep your model dry
-## 4.  Separations of concerns (Don't call database from View)
-* Think Separations of concerns, MVC
+## 4.  Separations of concerns 
+* Don't call database from View
+* Think MVC
