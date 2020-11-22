@@ -1,4 +1,4 @@
-# Rails Assessment Prep
+# Rails Assessment Prep 👨🏻‍💻 👩🏻‍💻
 
 ## 1. Difference between Render and Redirect
 * Resources: [Rendering & Redirecting](https://www.theodinproject.com/courses/ruby-on-rails/lessons/controllers#rendering-and-redirecting)
@@ -37,4 +37,15 @@
 8. Live coding question: "find username using scope"
 9. Live coding question: "find the team with the most users"
 	- Use join in scope, joining two tables first, [(stackoverflow)](https://stackoverflow.com/questions/16996618/rails-order-by-results-count-of-has-many-association)
+	
+## Live Coding Tips:
+Steps I took:
+1. Ask more clarifying questions if needed (it helps make you less nervous)
+2. pull out your notes to pseudo code first (write down what the instructions were)
+3. Talk your thoughts out loud throughout the whole process
+4. You can google!! (only refer to ruby guides, api docs etc, no stackoverflow)
+
+## Mindset shift:
+1. Relax, think of the instructor as your pair programming buddy
+2. "What can I learn from this review? What can I learn from this live coding session?"
 
