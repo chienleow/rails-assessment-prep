@@ -23,3 +23,18 @@
 ## 4. Separations of concerns 
 * Don't call database from View
 * Think MVC
+
+# Notes from Assessments
+1. Walk-through Google OmniAuth in browser, in code
+	- Refactored `google_login` method
+2. Walk-through "Sign in" in browser, in code
+3. Explain `@user.authenticate`, why wouldn't `@user.password_digest` work? Refer to Password notes above. 
+4. Show how the join table happens, the many-to-many relationship in browser and in code
+5. Refactored `current_user` helper method, read more on `=||` or equals ruby [(stackoverflow)](https://stackoverflow.com/questions/995593/what-does-or-equals-mean-in-ruby), don't call database too often, only call it when you need it, now your app is small, but when you have  a lot of users in database, it might slows you down if you keep calling database
+6. Show Scope method in browser and in the code
+	- Explain the difference between using Scope Method or using Class Method with the scope, there is no real big difference, but using scope has its advantage in terms of organization, easier to spot it when you have a lot of Class Methods and Scope Methods in your app, Scope Method would return empty `activerecord:relation`
+7. Nested routes and live coding (do scope, where)
+8. Live coding question: "find username using scope"
+9. Live coding question: "find the team with the most users"
+	- Use join in scope, joining two tables first, [(stackoverflow)](https://stackoverflow.com/questions/16996618/rails-order-by-results-count-of-has-many-association)
+
