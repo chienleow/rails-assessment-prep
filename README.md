@@ -1,4 +1,5 @@
 # Rails Assessment Prep 👨🏻‍💻 👩🏻‍💻
+![Visits Badge](https://badges.pufler.dev/visits/chienleow/rails-assessment-prep)
 
 ## 1. Difference between Render and Redirect
 * Resources: [Rendering & Redirecting](https://www.theodinproject.com/courses/ruby-on-rails/lessons/controllers#rendering-and-redirecting)
